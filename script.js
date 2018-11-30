@@ -1,17 +1,35 @@
 'use strict';
 
+let num = 50;
+
+(num == 50) ? console.log("Yes!"): console.log("No!");
+
+let num1 = 30;
+
+switch (num1) {
+    case num1 < 49:
+        console.log("0000");
+        break;
+    case num1 == 30:
+        console.log("1111");
+        break;
+    default:
+        console.log("WTF?");
+        break;
+}
+
 let incr = 10,
     decr = 10;
 
 console.log(incr++, decr--);
 console.log(incr, decr);
-console.log(45%7);
-console.log(4 === 4);   
+console.log(45 % 7);
+console.log(4 === 4);
 
 let isChecked = true,
     isClosed = false;
 
-console.log(isChecked || !isClosed);    
+console.log(isChecked || !isClosed);
 
 console.log(isChecked && !isClosed);
 
@@ -52,4 +70,4 @@ let answer1 = confirm("YES?");
 console.log(answer1);
 
 let answer2 = +prompt("Who You Are?", "Man");
-console.log(typeof(answer2));
+console.log(typeof (answer2));
