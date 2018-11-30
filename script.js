@@ -7,15 +7,26 @@ let num = 50;
 let num1 = 30;
 
 switch (num1) {
-    case num1 < 49:
-        console.log("0000");
-        break;
-    case num1 == 30:
-        console.log("1111");
+    case 30:
+        console.log("Yes!");
         break;
     default:
         console.log("WTF?");
         break;
+}
+
+let numb = 30;
+
+while (numb < 40) {
+    console.log(numb);
+    numb++;
+}
+
+for (let i = 1; i < 8; i++) {
+    if (i == 6) {
+    continue;
+    }
+    console.log(i)
 }
 
 let incr = 10,
