@@ -13,6 +13,8 @@ let isChecked = true,
 
 console.log(isChecked || !isClosed);    
 
+console.log(isChecked && !isClosed);
+
 console.log(4 + "roll");
 
 
